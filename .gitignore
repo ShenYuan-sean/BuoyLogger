@@ -1,0 +1,48 @@
+# ===========================
+# Keil uVision (MDK) Ignores
+# ===========================
+
+# 1. 忽略编译输出文件夹 (Keil V5 默认会创建这两个文件夹)
+Objects/
+Listings/
+DebugConfig/
+
+# 2. 忽略编译产生的中间文件 (以防它们不在 Objects 文件夹中)
+*.o
+*.obj
+*.crf
+*.d
+*.dep
+*.lnp
+*.plg
+*.htm
+*.map
+*.lst
+*.m51
+*.m52
+*.sct
+*.iex
+
+# 3. 忽略最终生成的二进制文件 (通常不需要版本控制，除非你想发布Release版)
+*.axf
+*.elf
+*.hex
+*.bin
+*.lib
+
+# 4. 忽略 Keil 的个人配置文件和备份
+# .uvprojx 是必须保留的核心工程文件，千万别忽略！
+# .uvoptx 包含调试器配置和当前打开的文件窗口记录，多人协作时容易冲突，建议忽略
+*.uvoptx
+*.uvopt
+*.uvguix.*
+*.bak
+*.dep
+JLinkLog.txt
+*.scvd
+
+# ===========================
+# 操作系统常见垃圾文件
+# ===========================
+.DS_Store
+Thumbs.db

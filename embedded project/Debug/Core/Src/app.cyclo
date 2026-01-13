@@ -1,0 +1,7 @@
+../Core/Src/app.c:27:6:feed_watchdog	2
+../Core/Src/app.c:40:6:process_rtk_data	2
+../Core/Src/app.c:58:6:process_acoustic_data	1
+../Core/Src/app.c:65:6:app_init	1
+../Core/Src/app.c:80:6:app_task	7
+../Core/Src/app.c:114:6:HAL_UARTEx_RxEventCallback	3
+../Core/Src/app.c:129:6:HAL_UART_ErrorCallback	3
